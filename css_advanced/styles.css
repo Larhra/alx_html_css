@@ -84,7 +84,6 @@ nav a{
 .register-for-free{
     margin-top: 30px;
     text-align: center;
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 22px;
     height: 44px;
     color: var(--font-color);
@@ -152,7 +151,7 @@ nav a{
     margin: 0;
     font-family: "Source Sans Pro",serif;
     align-items: center;
-    background-color: #C271FF; /* White card for better readability */
+    background-color: #C271FF; 
     border-radius: 10px;
     padding: 30px 240px;
     max-width: 1400px;
@@ -166,9 +165,9 @@ nav a{
     .profile-image img {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* Circular image */
+    border-radius: 50%;
     object-fit: cover;
-    margin-right: 50px; /* Spacing between image and text */
+    margin-right: 50px; 
     gap: 10px;
     margin-right: 40px;
   }
@@ -193,8 +192,10 @@ nav a{
     height: 450px;*/
     gap: 1rem;
     justify-content: center;
+
 }
- .container-one{
+ 
+.container-one{
     /*border: 1px solid;*/
     width: 255px;
     height: 335px;
@@ -235,6 +236,7 @@ nav a{
     text-align: center;
     margin-top: 1.9em;
 }
+
 .tutorials{
     justify-content: center;
     margin-bottom: 30px;
@@ -257,13 +259,17 @@ nav a{
 .membership  h2 {
     color: var(--font-color);
     font-family: "Source Sans Pro",serif;
-   
+ 
+    
 }
 .membership-content{
     display: flex;
     justify-content: center;
     text-align: center;
+    
+    
 }
+
 .membership-content div p{
     display: flex;
     flex-direction: column;
@@ -274,6 +280,7 @@ nav a{
     margin-bottom: 20px;
     /*color: var(--font-color);*/
     margin-inline: auto;
+
 }
 /*.membership-content  h3{
     text-align: center;
@@ -291,15 +298,19 @@ nav a{
     p{
         color: #ffffff;
         font-weight: 200;
-       /*text-align: center;*/
+        /*text-align: center;*/
     }
+
 }
 h2{
     text-align: center;
 }
- .membership-content h3{
+ 
+.membership-content h3{
     color: var(--font-color);
-  }
+    
+}
+
 .faq-content{
     display: flex;
     width: 60%;
@@ -307,10 +318,12 @@ h2{
    margin-inline: auto;
    font-family: "Source Sans Pro",serif;
 }
+
 .faq-content > div{
     font-weight: 200;
     padding: 1.89em;
 }
+
 .footer{
     background-color: var(--other-color);
     padding: 2rem;
@@ -320,6 +333,7 @@ h2{
     margin-inline: auto;
     justify-content: center;
 }
+
 .footer-logo{
     display: flex;
     justify-content: space-between;
@@ -334,15 +348,15 @@ h2{
     position: relative;
     bottom: 0;
 }
-.socials{
-    
-    font-size: 20px;
-    font-weight: bolder;
-    width: 130px;
-    height: 30px;
-}
+.social-icons a img {
+    width: 24px;
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover img {
+    opacity: 0.7;
+  }  
 .play{
     position: absolute;
     transform: translate(90px, 50px);
 }
-
