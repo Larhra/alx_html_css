@@ -95,7 +95,7 @@ nav a{
     cursor: pointer;
     margin: 2rem auto;
     border: none;
-    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0, 0.3);
+    box-shadow: 10px 10px 20px rgba(0.7, 0.5, 0.5, 0.5);
 }
 .learn{
     text-align: center;
@@ -103,7 +103,7 @@ nav a{
     font-weight: lighter;
     font-size: 32px;
     color: var(--font-color);
-    margin-top: 130px;
+    margin-top: 170px;
 }
 .learn-from-the-pros{
     margin-top: 250px;
@@ -131,6 +131,10 @@ nav a{
     width: 200px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0, 0.3);
 }
+.smile-of-the-year{
+    font-style: italic;
+    font-weight: lighter;
+}
 .profile img {
     width: 100px;
     height: 100px;
@@ -142,47 +146,65 @@ nav a{
     font-size: 1.2rem;
     margin: 10px 0;
 }
+
 .profile p{
     font-size: 0.9rem;
     line-height: 1.5;
 }
   .testimonial {
     display: flex;
-    margin: 0;
+    /* margin: 0; */
     font-family: "Source Sans Pro",serif;
     align-items: center;
     background-color: #C271FF; 
-    border-radius: 10px;
-    padding: 30px 240px;
+    /* padding: 30px 240px; */
     max-width: 1400px;
-    padding-inline: 10rem;
+    /* padding-inline: 10rem; */
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
     height: 392px;
     color: var(--font-color);
+  }
+  .testimonial .testimonial-box-a {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    gap: 10px;
+    /* padding-left: 5%; */
   }
     .profile-image img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 50px; 
-    gap: 10px;
-    margin-right: 40px;
-  }
-    .testimonial-text p {
-    margin: 20;
-    line-height: 1.5;
-}
-    .testimonial-text h4 {
-    margin: 20px 0 5px 0;
+    margin-top: 22px;
+    vertical-align: middle;
+    /* gap: 50px; */
+    vertical-align: middle;
+    
+ }
+
+
+
+.testimonial-text {
+    /* margin: 20px 0 5px 0; */
+    border-top: 0;
     font-size: 1.2rem;
     color: white;
+    
+}
+
+  .testimonial-text h3 {
     font-weight: bold;
   }
 .weather-presenter {
     font-style: italic;
+    font-weight: lighter;
+}
+.tutorials-light {
+    font-weight: lighter;
 }
 .tutorials-container{
     display: flex;
@@ -190,9 +212,8 @@ nav a{
     margin: 50px;
     /*width: 1228px;
     height: 450px;*/
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
-
 }
  
 .container-one{
@@ -202,24 +223,84 @@ nav a{
     font-weight: 100;
     font-family: "Source Sans Pro",serif;
 }
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    font-size: 16px;
+    color: #a35edc; /* Purple for the stars */
+  }
+  
+  .stars span {
+    color: #a35edc; /* Purple for filled stars */
+  }
+  
+  .stars span:last-child {
+    color: #ccc; /* Grey for unfilled stars */
+  }
 .container-two{
     width: 255px;
     height: 335px;
     font-weight: 100;
     font-family: "Source Sans Pro",serif;
 }
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    font-size: 16px;
+    color: #a35edc; /* Purple for the stars */
+  }
+  
+  .stars span {
+    color: #a35edc; /* Purple for filled stars */
+  }
+  
+  .stars span:last-child {
+    color: #ccc; /* Grey for unfilled stars */
+  }
 .container-three{
     width: 255px;
     height: 335px;
     font-weight: 100;
     font-family: "Source Sans Pro",serif;
 }
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    font-size: 16px;
+    color: #a35edc; /* Purple for the stars */
+  }
+  
+  .stars span {
+    color: #a35edc; /* Purple for filled stars */
+  }
+  
+  .stars span:last-child {
+    color: #ccc; /* Grey for unfilled stars */
+  }
 .container-four{
     width: 255px;
     height: 335px;
     font-weight: 100;
     font-family: "Source Sans Pro",serif;
 }
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    font-size: 16px;
+    color: #a35edc; /* Purple for the stars */
+  }
+  
+  .stars span {
+    color: #a35edc; /* Purple for filled stars */
+  }
+  
+  .stars span:last-child {
+    color: #ccc; /* Grey for unfilled stars */
+  }
 .name{
     display: flex;
     align-items: center;
@@ -259,17 +340,12 @@ nav a{
 .membership  h2 {
     color: var(--font-color);
     font-family: "Source Sans Pro",serif;
- 
-    
 }
 .membership-content{
     display: flex;
     justify-content: center;
     text-align: center;
-    
-    
 }
-
 .membership-content div p{
     display: flex;
     flex-direction: column;
@@ -280,7 +356,6 @@ nav a{
     margin-bottom: 20px;
     /*color: var(--font-color);*/
     margin-inline: auto;
-
 }
 /*.membership-content  h3{
     text-align: center;
@@ -360,3 +435,9 @@ h2{
     position: absolute;
     transform: translate(90px, 50px);
 }
+
+/* .bottom-class {
+    display: flex;
+    justify-content: space-between;
+  
+} */
