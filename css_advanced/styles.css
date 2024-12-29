@@ -216,7 +216,7 @@ nav a{
     justify-content: center;
 }
  
-.container-one{
+.tutorial-one{
     /*border: 1px solid;*/
     width: 255px;
     height: 335px;
@@ -238,7 +238,7 @@ nav a{
   .stars span:last-child {
     color: #ccc; /* Grey for unfilled stars */
   }
-.container-two{
+.tutorial-two{
     width: 255px;
     height: 335px;
     font-weight: 100;
@@ -259,7 +259,7 @@ nav a{
   .stars span:last-child {
     color: #ccc; /* Grey for unfilled stars */
   }
-.container-three{
+.tutorial-three{
     width: 255px;
     height: 335px;
     font-weight: 100;
@@ -280,7 +280,7 @@ nav a{
   .stars span:last-child {
     color: #ccc; /* Grey for unfilled stars */
   }
-.container-four{
+.tutorial-four{
     width: 255px;
     height: 335px;
     font-weight: 100;
@@ -427,6 +427,7 @@ h2{
     gap: 15px;
     justify-content: center; 
     align-items: center;
+    
   }
   
   .social-icon {
@@ -446,3 +447,7 @@ h2{
   .social-icon:hover {
     transform: scale(1.1); 
   }
+.play{
+    position: absolute;
+    transform: translate(90px, 50px);
+}
