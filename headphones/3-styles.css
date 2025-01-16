@@ -475,6 +475,9 @@
     font-size: 14px; /* Placeholder text size */
   }
   
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
   footer {
     background-color: #071629;
     padding: 90px 200px;

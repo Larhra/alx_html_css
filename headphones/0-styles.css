@@ -88,6 +88,10 @@
     padding: 30px 5px;
     margin-bottom: 250px;
   }
+
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
   
   .nav-right ul {
     justify-content: space-between;

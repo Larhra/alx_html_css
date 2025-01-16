@@ -117,6 +117,9 @@
     display: none;
   }
   
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
   .burger-icon {
     font-size: 30px;
     cursor: pointer;

@@ -27,6 +27,9 @@ footer {
     text-align: center;
 }
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
