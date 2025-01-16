@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ... (Other section styles here) ... */
+
+/* Our Results Section */
+#our-results {
+    /* ... (Previous styles for #our-results) ... */
+}
+
+.result {
+    /* ... (Previous styles for .result) ... */
+}
+
+.pentagon {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; 
+    background-color: #007bff; /* Example: Blue color */
+    position: relative;
+}
+
+.pentagon:before,
+.pentagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 50px; /* Adjust for pentagon size */
+    border-style: solid;
+    border-color: transparent transparent #007bff transparent; /* Match background color */
+}
+
+.pentagon:before {
+    left: 0;
+    top: -50px;
+    transform: rotate(72deg); 
+}
+
+.pentagon:after {
+    right: 0;
+    bottom: -50px;
+    transform: rotate(-72deg);
+}
