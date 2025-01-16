@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header Styles (from 0-styles.css) */
+/* ... (Your header styles here) ... */
+
+/* What We Do Section (from 1-styles.css) */
+/* ... (Your What We Do section styles here) ... */
+
+/* Our Results Section (from 2-styles.css) */
+/* ... (Your Our Results section styles here) ... */
+
+/* Contact Us Section (from 3-styles.css) */
+/* ... (Your Contact Us section styles here) ... */
+
+/* Footer */
+footer {
+    background-color: #f8f8f8; /* Example: Light gray background */
+    padding: 30px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #333; 
+    font-size: 1.5rem;
+}
+
+/* Add hover effect to social media icons */
+.social-media a:hover {
+    color: #007bff; 
+}
