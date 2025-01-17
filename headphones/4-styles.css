@@ -22,39 +22,30 @@ body {
 
 /* Footer */
 footer {
-    background-color: #f8f8f8; /* Example: Light gray background */
-    padding: 30px 0;
+    background-color: #071629;
+    padding: 90px 200px;
+  }
+  
+  footer .footer-top {
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 70px;
+  }
+  
+  footer .footer-right ul {
+    gap: 5px;
+  }
+  
+  footer p {
+    color: #ffffff;
     text-align: center;
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-footer p {
-    margin-bottom: 15px;
-}
-
-.social-media {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.social-media li {
-    margin: 0 10px;
-}
-
-.social-media a {
-    color: #333; 
-    font-size: 1.5rem;
-}
-
-/* Add hover effect to social media icons */
-.social-media a:hover {
-    color: #007bff; 
-}
+    font-size: 12px;
+  }
+  
+  body > footer > div > div.footer-right > ul > li a img {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: auto; 
+  }

@@ -176,16 +176,19 @@
     max-width: 600px;
     min-width: calc(7 * 5ch);
     margin-inline: auto;
-    margin-block: 50px;
+    /* margin-block: 5px; */
     text-align: center;
-    word-wrap: break-word; /* Prevents text overflow */
+    margin-top: 100px;
+    word-wrap: break-word; 
   }
   .options .list .option {
     flex-direction: column;
     width: 200px;
     height: 180px;
+    margin-top: 80px;
     justify-content: space-between;
     text-align: center;
+    margin-block: 80px;
   }
   .options .list {
     justify-content: space-between;
